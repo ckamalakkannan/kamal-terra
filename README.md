@@ -4,16 +4,19 @@ clone from https://github.com/ckamalakkannan/kamal-terra.git
 
 cd kamal-terra
 
-# paste your access and secretkey
+# paste your access and secretkey 
+ 
+vim ec2-terraform.tf
 
-#Give ec2 name and tag
+   access_key = "your access key"
+   secret_key = "your secret key"
 
+Save it.
 
-vim main.tf
-
+# Run apply terraform 
 
 terraform plan
 
 terraform apply
 
-#check your ec2 console
+# check your ec2 console
